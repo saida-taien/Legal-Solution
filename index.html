@@ -10,10 +10,6 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Font Awesome link  -->
-
-    <script src="https://kit.fontawesome.com/99c0f473f9.js" crossorigin="anonymous"></script>
-
     <!-- poppins and EB Garamond google fonts -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +50,7 @@
 
 <body class="font-poppins container mx-auto">
     <header>
-        <nav>
+        <nav class=" mx-auto  lg:px-10">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -117,7 +113,7 @@
                                 </svg></a></li>
                     </ul>
                 </div>
-                <div class="navbar-end">
+                <div class="navbar-end flex items-center">
                     <a
                         class="btn bg-primary-color text-white lg:px-14 hover:bg-transparent duration-700 hover:border-2 hover:text-black">Free
                         Consultation</a>
@@ -127,7 +123,7 @@
 
         <!-- ------Banner Section------ -->
 
-        <section class="my-14">
+        <section class="my-24 mx-auto  lg:px-10">
             <div class="hero min-h-screen" style="background-image: url('images/banner.png');">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
@@ -151,7 +147,7 @@
     </header>
 
     <main>
-        <section class="my-24">
+        <section class="my-24 mx-auto  lg:px-10">
             <div class="text-center mx-auto">
                 <h1 class="text-4xl font-extrabold p-2 font-EB-Garamond">The Legal Practice Area</h1>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered
@@ -237,7 +233,7 @@
         </section>
 
         <!-- --------What our clients says section ------------ -->
-        <section class="my-24">
+        <section class="my-24 mx-auto  lg:px-10">
             <div class="text-center mx-auto mb-16">
                 <h1 class="text-4xl font-extrabold p-2 font-EB-Garamond">What Our Client Say</h1>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered
@@ -248,7 +244,7 @@
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="images/banner.png" class="w-full" />
-                    <div class="absolute  lg:left-56 lg:top-44 lg:space-y-1 mx-auto">
+                    <div class="absolute  lg:left-40 lg:top-28 lg:space-y-1 mx-auto">
                         <div class="flex justify-center items-center">
                             <img src="images/Ellipse 1.png" class="p-6">
                         </div>
@@ -270,7 +266,7 @@
 
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="images/banner.png" class="w-full" />
-                    <div class="absolute  lg:left-56 lg:top-44 lg:space-y-1 mx-auto">
+                    <div class="absolute  lg:left-40 lg:top-28 lg:space-y-1 mx-auto">
                         <div class="flex justify-center items-center">
                             <img src="images/Ellipse 1.png" class="p-6">
                         </div>
@@ -291,7 +287,7 @@
 
                 <div id="slide3" class="carousel-item relative w-full">
                     <img src="images/banner.png" class="w-full" />
-                    <div class="absolute  lg:left-56 lg:top-44 lg:space-y-1 mx-auto">
+                    <div class="absolute  lg:left-40 lg:top-28 lg:space-y-1 mx-auto">
                         <div class="flex justify-center items-center">
                             <img src="images/Ellipse 1.png" class="p-6">
                         </div>
@@ -312,7 +308,7 @@
 
                 <div id="slide4" class="carousel-item relative w-full">
                     <img src="images/banner.png" class="w-full" />
-                    <div class="absolute lg:left-56 lg:top-44 lg:space-y-1 mx-auto ">
+                    <div class="absolute lg:left-40 lg:top-28 lg:space-y-1 mx-auto ">
                         <div class="flex justify-center items-center">
                             <img src="images/Ellipse 1.png" class="p-6">
                         </div>
@@ -335,14 +331,14 @@
         </section>
 
         <!-- -----------FAQ---------- -->
-        <section class="my-24">
-            <div class="text-center mx-auto mb-16">
+        <section class="my-24 mx-auto  lg:px-10">
+            <div class="text-center mx-auto mb-16 ">
                 <h1 class="text-4xl font-extrabold p-2 font-EB-Garamond">Frequently Asked Any Questions</h1>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered
                     alteration in some form, by injected humour.</p>
             </div>
 
-            <div class="flex gap-8 flex-col lg:flex-row lg:pl-24">
+            <div class="flex gap-8 flex-col lg:flex-row lg:pl-24 p-3">
                 <div class="lg:space-y-16 lg:my-3">
 
                     <div class="collapse collapse-plus bg-base-200">
@@ -394,7 +390,118 @@
             </div>
         </section>
 
+
+        <!-- Contact with us section -->
+
+        <section  class="my-24 lg:px-10 mx-auto">
+            <div class="text-center mx-auto mb-16">
+                <h1 class="text-4xl font-extrabold p-2 font-EB-Garamond">Contact With Us</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered
+                    alteration in some form, by injected humour.</p>
+            </div>
+
+            <div class="flex gap-8 lg:flex-row flex-col px-3">
+
+                <!-- card container  -->
+                <div class="grid grid-cols-1 lg:grid-cols-2">
+                    <!-- card-1  -->
+                    <div class="card  bg-base-100 border-r-2 border-b-2 space-y-3 bg-[#F3F3F3]">
+                        <figure><img src="images/address.png" class="p-3" /></figure>
+                        <div class="card-body">
+                            <h2 class="text-3xl font-extrabold text-center font-EB-Garamond">Address</h2>
+                            <p class="text-center">A108 Adam Street,<br>
+                                New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <!-- card-2  -->
+                    <div class="card  bg-base-100 border-r-2 border-b-2  space-y-3 bg-[#F3F3F3] ">
+                        <figure><img src="images/address.png" class="p-3" /></figure>
+                        <div class="card-body">
+                            <h2 class="text-3xl font-extrabold text-center font-EB-Garamond">Call Us</h2>
+                            <p class="text-center">+88 01750 00 00 00
+                                +88 01750 00 00 00</p>
+                        </div>
+                    </div>
+                    <!-- card-3  -->
+                    <div class="card  bg-base-100 border-r-2 space-y-3 bg-[#F3F3F3] ">
+                        <figure><img src="images/email.png" class="p-3" /></figure>
+                        <div class="card-body">
+                            <h2 class="text-3xl font-extrabold text-center font-EB-Garamond">Email Us</h2>
+                            <p class="text-center">info@gmail.com
+                                info@gmail.com</p>
+                        </div>
+                    </div>
+                    <!-- card-4  -->
+                    <div class="card  bg-base-100 border-r-2 space-y-3 bg-[#F3F3F3] ">
+                        <figure><img src="images/time.png" class="p-3" /></figure>
+                        <div class="card-body">
+                            <h2 class="text-3xl font-extrabold text-center font-EB-Garamond">Working Hours</h2>
+                            <p class="text-center">Mon-Fri: 9AM to 5PM
+                                Sunday: 9AM to 1 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- form container  -->
+
+                <div class= "space-y-3">
+                    <div  class="border-0 bg-[#F3F3F3] lg:px-6 py-4 rounded-md">
+                        <input type="text" placeholder="Your name" required class="bg-transparent">
+                    </div>
+                    <div  class="border-0 bg-[#F3F3F3] lg:px-6 py-4 rounded-md">
+                        <input type="email" placeholder="Your email" required class="bg-transparent"> 
+                    </div>
+                    <div  class="border-0 bg-[#F3F3F3] lg:px-6 py-4 rounded-md">
+                        <input type="text" placeholder="Subject" class="bg-transparent">
+                    </div>
+                    <div  class="border-0 bg-[#F3F3F3] lg:px-6 py-4 rounded-md">
+                        <textarea name="Your message" id="" cols="50" rows="10" placeholder="Your message" class="bg-transparent"></textarea>
+                    </div>
+                    <button
+                    class="btn bg-primary-color text-white border-0 px-60 hover:bg-transparent duration-700 hover:border-2">Send Message</button>
+                </div>
+            </div>
+        </section>
+
     </main>
+
+    <footer class="footer p-10 bg-black text-base-content text-white">
+        <nav>
+          <header class="footer-title pb-8">
+            <img src="images/logo.png" alt="" >
+          </header> 
+          <p class="w-64">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </nav> 
+        <nav>
+          <header class="footer-title pb-8">Useful Link</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">BlogPress kit</a>
+        </nav> 
+        <nav>
+          <header class="footer-title pb-8">Contact Now</header> 
+          <a class="link link-hover">555 4th 5t NW, Washington <br>
+            DC 20530, United States</a>
+          <a class="link link-hover">+88 01750 000 000 <br>
+            +88 01750 000 000</a>
+          <a class="link link-hover">info@gmail.com <br>
+            info@gmail.com</a>
+        </nav> 
+        <form>
+          <header class="footer-title pb-8">Subscribe</header> 
+          <p class="w-56">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label> 
+            <div class="join">
+              <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+              <button class="btn bg-primary-color text-white border-0 px-14 hover:bg-transparent duration-700 hover:border-2"><img src="images/Frame.svg" alt=""></button>
+            </div>
+          </fieldset>
+        </form>
+    </footer>
 </body>
 
 </html>
